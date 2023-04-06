@@ -111,7 +111,7 @@ const Home = () => {
                         <div class="card card-border mx-auto bg-transparent">
                         <img src={mobile_card_2} class="card-img-top" data-aos="fade-up" data-aos-delay="300" alt="Mobile"/>
                            <div class="card-body px-lg-2 px-md-2 px-3">
-                              <h3 class="card-title text-blue text-center">Pro</h3>
+                              <h3 class="card-title text-blue text-center">Intermediate</h3>
                               <ul className="subsciption-details">
                                  <li>Duration: <strong> Monthly</strong></li>
                                  <li>Balance Limit:<small> $100 - $10,000</small></li>
@@ -165,7 +165,7 @@ const Home = () => {
                         <div class="card card-border mx-auto bg-transparent">
                         <img src={mobile_card_5} class="card-img-top" data-aos="fade-up" data-aos-delay="600" alt="Mobile"/>
                           <div class="card-body px-lg-2 px-md-2 px-3">
-                              <h3 class="card-title text-blue text-center"> Pro </h3>
+                              <h3 class="card-title text-blue text-center"> Advanced </h3>
                               <ul className="subsciption-details">
                                  <li>Duration: <strong> Yearly</strong></li>
                                  <li>Balance Limit:<small> $100 - $100,000</small></li>

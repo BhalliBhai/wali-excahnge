@@ -13,7 +13,7 @@ const Withdraw = () => {
               <h1 className="text-center mb-3" data-aos="fade-down" data-aos-delay="300">Withdraw</h1>
               <form action="/withdraw" className="form-deposit">
                 <input type="text" placeholder="Wallet Address" />
-                <input type="number" placeholder="$ Amaount" />
+                <input type="number" placeholder="$ Amount" />
                 <button type="submit" className="btn btn-blue px-5">Widthdraw</button>
              </form>
               </div>
