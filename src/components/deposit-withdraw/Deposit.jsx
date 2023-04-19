@@ -2,6 +2,8 @@ import React from "react";
 import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import "./deposit-withdraw.css";
+import { NavLink } from 'react-router-dom';
+
 
 const Deposit = () => {
     return(
@@ -39,6 +41,11 @@ const Deposit = () => {
               </div>
 
 
+            </div>
+            <div className="row">
+              <div className="col-lg-4 col-md-4 col-6">
+                <NavLink className='btn-blue' to="/deposit-proof">Continue</NavLink>
+              </div>
             </div>
            </div>
            <Footer/>

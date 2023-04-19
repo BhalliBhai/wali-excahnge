@@ -10,6 +10,7 @@ import Deposit from './components/deposit-withdraw/Deposit';
 import Withdraw from './components/deposit-withdraw/Withdraw';
 import Help from './components/deposit-withdraw/Help';
 import Plans from './components/Plans/Plans';
+import DepositProof from './components/deposit-withdraw/DepositProof';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
          <Route path="/profile" element={<Profile/>} />
          <Route path='/disclaimer' element={ <Disclaimer/> }/>
          <Route path='/deposit' element={ <Deposit/> } />
+         <Route path='/deposit-proof' element={ <DepositProof/> } />
          <Route path='/withdraw' element={ <Withdraw/> } /> 
          <Route path='/help' element={<Help/>} />
          <Route path='/plans' element={ <Plans/> } />
