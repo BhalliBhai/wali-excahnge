@@ -1,7 +1,5 @@
 import React from "react";
 import "../../App.css";
-import Footer from "../footer/Footer";
-import Navbar from "../navbar/Navbar";
 import mobile_card_1 from "../../images/mobile-card-1.png";
 import mobile_card_2 from "../../images/mobile-card-2.png";
 import mobile_card_3 from "../../images/mobile-card-3.png";
@@ -11,8 +9,6 @@ import mobile_card_5 from "../../images/mobile-card-5.png";
 const Plans = () => {
     return(
         <>
-        <Navbar/>
-          <div className="plans-page">
           <section>
                   <div className="container-fluid mt-5 mb-3">
                   <h1 className="text-uppercase text-blue text-center" data-aos="fade-down" data-aos-delay="300">subscriptions and plans</h1>
@@ -112,8 +108,6 @@ const Plans = () => {
                   </div>
                </section>
 
-          </div>
-          <Footer/>
         </>
     );
 }

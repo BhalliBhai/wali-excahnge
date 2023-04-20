@@ -3,9 +3,9 @@ import "./styles/profile.css";
 import profile_bg from "../images/candle-chart.jpg"
 import { Link } from "react-router-dom";
 import profile_img from "../images/profile.jpg";
-import History from "../components/deposit-withdraw/History";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
+import Plans from '../components/Plans/Plans'
 
 const Profile = () => {
 
@@ -91,6 +91,13 @@ const Profile = () => {
                            </div>
                            
                         </div>
+                  </div>
+               </div>
+            </div>
+            <div className="container-fluid">
+               <div className="row pt-5 pb-3">
+                  <div className="col-12" >
+                    <Plans/>
                   </div>
                </div>
             </div>
