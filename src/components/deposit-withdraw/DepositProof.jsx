@@ -44,7 +44,7 @@ const DepositProof = () => {
                     <h1 className="text-center">Deposit Bitcoin</h1>
                     <div className="row">
                         <div className="col-lg-6 col-md-8 col-10 my-4 mx-auto">
-                            <form action="" method="post">
+                            <form action="Not working yet" method="post">
                             <div
                                 className="image-uploader form-div mx-auto text-center " 
                                 onDrop={handleDrop}
