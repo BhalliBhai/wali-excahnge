@@ -65,7 +65,7 @@ const Profile = () => {
                           <h5>Last Withdrawn: <strong className="text-danger">$700</strong></h5>
                         </div>
 
-                        <div className="col-6">
+                        <div className="col-6 text-end">
                           <h5>Current Plan: <strong className="text-success">Pro</strong> <span className="small">(Monthly) </span></h5>
                           <h5>Plan Limit: <strong>$100 to $10,000</strong></h5>
                           <h5>Current Trade: <strong>$500</strong></h5>
@@ -73,19 +73,23 @@ const Profile = () => {
                           <h5>Last Deposit: <strong>$300</strong></h5>
                         </div>
                      </div>
-                     <div className="row text-align-middle profile-links">
-                           <div className="col-lg-3 col-md-4 col-4 py-2 text-center" data-aos="fade-up" data-aos-delay="300">
+                     <div className="d-flex text-align-middle profile-links justify-content-between">
+                           <div className="col-lg-2 col-md-4 col-4 py-2 text-center">
                            <Link className="btn-blue" to={"/deposit"}>Deposit</Link>
                            </div>
-                           <div className="col-lg-3 col-md-4 col-4 py-2 text-center" data-aos="fade-up" data-aos-delay="300">
+                           <div className="col-lg-2 col-md-4 col-4 py-2 text-center" >
                            <Link className="btn-blue" to={"/withdraw"}>Withdraw</Link>
                            </div>
-                           <div className="col-lg-3 col-md-4 col-4 py-2 text-center" data-aos="fade-up" data-aos-delay="300">
+                           <div className="col-lg-2 col-md-4 col-4 py-2 text-center">
+                           <Link className="btn-blue" to={"/history"}>History</Link>
+                           </div>
+                           <div className="col-lg-2 col-md-4 col-4 py-2 text-center" >
                            <Link className="btn-blue" to={"/plans"}>Plans</Link>
                            </div>
-                           <div className="col-lg-3 col-md-4 col-4 py-2 text-center" data-aos="fade-up" data-aos-delay="300">
+                           <div className="col-lg-2 col-md-4 col-4 py-2 text-center">
                            <Link className="btn-blue" to={"/help"}>Help</Link>
                            </div>
+                           
                         </div>
                   </div>
                </div>

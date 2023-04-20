@@ -11,6 +11,7 @@ import Withdraw from './components/deposit-withdraw/Withdraw';
 import Help from './components/deposit-withdraw/Help';
 import Plans from './components/Plans/Plans';
 import DepositProof from './components/deposit-withdraw/DepositProof';
+import History from './components/deposit-withdraw/History';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
          <Route path='/withdraw' element={ <Withdraw/> } /> 
          <Route path='/help' element={<Help/>} />
          <Route path='/plans' element={ <Plans/> } />
+         <Route path='/history' element={ <History/> } />
          </Routes>      
         
       </BrowserRouter>
