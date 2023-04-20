@@ -94,13 +94,6 @@ const Profile = () => {
                   </div>
                </div>
             </div>
-            <div className="container">
-               <div className="row pt-5 pb-3">
-                  <div className="col-12" >
-                    <History/>
-                  </div>
-               </div>
-            </div>
            </div>
          <Footer/>
         </>
