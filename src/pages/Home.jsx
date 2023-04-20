@@ -85,7 +85,7 @@ const Home = () => {
                   </div>
                </section>
                {/* Subscription Plans Section */}
-               <section>
+               {/* <section>
                   <div className="container-fluid mt-5 mb-3">
                   <h1 className="text-uppercase text-blue text-center" data-aos="fade-down" data-aos-delay="300">subscriptions and plans</h1>
                      <div className="row pt-3 justify-content-around">
@@ -182,10 +182,10 @@ const Home = () => {
                        
                      </div>
                   </div>
-               </section>
+               </section> */}
                {/* <Plans/> */}
                <section>
-                  <div className="container-fluid">
+                  <div className="container-fluid mt-4">
                      <div className="row">
                      {/* Terms of service  */}
                         <div className="col-lg-4 col-md-6 col-10 mx-auto mb-3" data-aos="fade-up" data-aos-delay="300">
