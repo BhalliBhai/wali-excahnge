@@ -46,7 +46,7 @@ const Deposit = () => {
               <h3 className="text-center"><span className="small">or</span> <br /> Copy address below to deposit BITCOIN</h3>
               {/* <h3 className="text-center">$250</h3> */}
               <div className="qr-code text-center mx-auto mt-5" 
-              // data-aos="fade-up" data-aos-delay="300"
+              data-aos="fade-up" data-aos-delay="300"
               >
                 <img height={250} width={250} style={{borderRadius:'10px'}} src={qr_code} alt="" />
               </div>
