@@ -3,6 +3,8 @@ import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import "./deposit-withdraw.css";
 import { NavLink } from 'react-router-dom';
+import qr_code from '../../images/QR-code.jpg'
+import ClipboardCopy from "./ClipboardCopy";
 
 
 const Deposit = () => {
@@ -11,15 +13,15 @@ const Deposit = () => {
         <Navbar/>
            <div className="container-fluid deposit-page">
             <div className="row pt-5 pb-5 ">
-              <div className="col-lg-6 col-md-8 col-11 mx-auto form-div p-4" data-aos="fade-down" data-aos-delay="300">
+              {/* <div className="col-lg-6 col-md-8 col-11 mx-auto form-div p-4" data-aos="fade-down" data-aos-delay="300">
               <h1 className="text-center mb-3" data-aos="fade-down" data-aos-delay="300">Deposit</h1>
               <form action="/deposit" className="form-deposit">
                 <input type="text" placeholder="Wallet Address" />
                 <input type="number" placeholder="$ Amount" />
                 <button type="submit" className="btn btn-blue px-5">Deposit</button>
              </form>
-              </div>
-               <h1 className="text-center my-4" data-aos="fade-up" data-aos-delay="300">OR</h1>
+              </div> */}
+               {/* <h1 className="text-center my-4" data-aos="fade-up" data-aos-delay="300">OR</h1>
               <div className="col-lg-6 col-md-8 col-11 mx-auto form-div p-4" data-aos="fade-up" data-aos-delay="300">
               <h2 className="text-center mb-3">Scan QR Code to Add Balance</h2>
               <h3 className="text-center">$250</h3>
@@ -37,6 +39,22 @@ const Deposit = () => {
                   <path d="M19 13h-2v2h2v-2Z"></path>
                   <path d="M21 15h-2v2h2v-2Z"></path>
                 </svg>
+              </div>
+              </div> */}
+              <div className="col-lg-6 col-md-8 col-11 mx-auto form-div p-4" data-aos="fade-up" data-aos-delay="300">
+              <h2 className="text-center mb-0">Scan QR code</h2>
+              <h3 className="text-center"><span className="small">or</span> <br /> Copy address below to deposit BITCOIN</h3>
+              {/* <h3 className="text-center">$250</h3> */}
+              <div className="qr-code text-center mx-auto mt-5" 
+              // data-aos="fade-up" data-aos-delay="300"
+              >
+                <img height={250} width={250} style={{borderRadius:'10px'}} src={qr_code} alt="" />
+              </div>
+              <h6>Send only BITCOIN to this address, this address does not support other token.</h6>
+              <div className="wallet-address">
+                <h2 className="text-center mb-3">Wallet Address</h2>
+                <ClipboardCopy copyText="3E7Y4nwCXx7LFxJPoT92zdAb3dbPjceJPk" />
+                
               </div>
               </div>
 

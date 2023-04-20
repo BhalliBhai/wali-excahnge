@@ -169,3 +169,24 @@ tr:nth-child(even) {
     font-size: 10px;
   } 
 }
+
+
+
+.profile-thumb-block{
+  position: relative;
+}
+.input-container {
+  display: none;
+  position: absolute;
+  top: -60px;
+  left: 47%;
+  padding: 0px;
+  z-index: 99999;
+  background: transparent;
+}
+.input-container label svg{
+  color: black;
+}
+.profile-thumb-block:hover .input-container{
+  display: block;
+}
