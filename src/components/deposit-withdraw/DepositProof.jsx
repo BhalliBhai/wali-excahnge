@@ -44,6 +44,7 @@ const DepositProof = () => {
                     <h1 className="text-center">Deposit Bitcoin</h1>
                     <div className="row">
                         <div className="col-lg-6 col-md-8 col-10 my-4 mx-auto">
+                            <form action="" method="post">
                             <div
                                 className="image-uploader form-div mx-auto text-center " 
                                 onDrop={handleDrop}
@@ -67,6 +68,7 @@ const DepositProof = () => {
                             <div className="mt-3 text-end">
                             <button className="mx-auto btn-blue border-0 px-5">Submit</button>
                             </div>
+                            </form>
                         </div>
                         
 
