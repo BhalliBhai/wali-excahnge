@@ -52,3 +52,63 @@ input[type=number]::-webkit-inner-spin-button, .input[type=number]::-webkit-oute
   color: white;
   border-radius: 25px;
 }
+
+.image-uploader{
+  min-width: 100%;
+  min-height: 500px;
+  background-color: rgb(128, 128, 128);
+}
+
+.image-preview{
+  vertical-align: middle;
+  margin: auto;
+} 
+
+.image-preview img{
+  height: auto;
+  width: 100%;
+}
+
+.image-preview span{
+  font-size: 20px;
+  font-weight: 500;
+  color: #56527F;
+}
+
+/*  */
+.image-uploader {
+  width: 400px;
+  height: 400px;
+  border: 2px dashed #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-uploader.drag-over {
+  border-color: #666;
+}
+
+.image-preview {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-preview span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  margin-top: 10px;
+}

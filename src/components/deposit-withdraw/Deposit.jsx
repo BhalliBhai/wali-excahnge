@@ -42,9 +42,9 @@ const Deposit = () => {
 
 
             </div>
-            <div className="row">
-              <div className="col-lg-4 col-md-4 col-6">
-                <NavLink className='btn-blue' to="/deposit-proof">Continue</NavLink>
+            <div className="row mb-4">
+              <div className="col-lg-4 col-md-4 col-6 text-center mx-auto">
+                <NavLink className='btn-blue w-100 px-5 py-2 fs-large' to="/deposit-proof">Continue</NavLink>
               </div>
             </div>
            </div>
