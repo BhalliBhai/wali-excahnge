@@ -7,7 +7,7 @@ const DepositProof = () => {
     const [selectedFile, setSelectedFile] = useState(null);
     const [previewUrl, setPreviewUrl] = useState(null);
 
-    
+  
   const fileInputRef = React.createRef();
 
   const handleFileInputChange = (event) => {
@@ -70,15 +70,10 @@ const DepositProof = () => {
                             </div>
                             </form>
                         </div>
-                        
-
-
-
-
                     </div>
                 </div>
             </div>
-            <Footer/>
+          <Footer/>
         </>
     );
 }
